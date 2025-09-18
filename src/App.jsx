@@ -8,7 +8,7 @@ import Skills from './pages/Skills';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white flex flex-col">
+    <div className="min-h-screen bg-white">
      <Home />
      <About />
      <Skills />

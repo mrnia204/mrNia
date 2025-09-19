@@ -21,10 +21,10 @@ const Services = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Web Development</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Custom websites and web applications built with morden technologies like React, Next.js, and TypeScript.
+                Custom websites and web applications built with modern technologies like React, Next.js, and TypeScript.
               </p>
               <ul className="space-y-2 mb-6">
-                <li className="flex items-center text-gray-700"><i className="ri-check-line text-green-800 mr-2"></i>Responseve Design</li>
+                <li className="flex items-center text-gray-700"><i className="ri-check-line text-green-800 mr-2"></i>Responsive Design</li>
                 <li className="flex items-center text-gray-700"><i className="ri-check-line text-green-800 mr-2"></i>Performace Optimization</li>
                 <li className="flex items-center text-gray-700"><i className="ri-check-line text-green-800 mr-2"></i>SEO-Friendly</li>
                 <li className="flex items-center text-gray-700"><i className="ri-check-line text-green-800 mr-2"></i>Cross-browser Compatibility</li>
@@ -80,7 +80,7 @@ const Services = () => {
             <h3 className="text-2xl font-bold mb-4">Need Something Custom?</h3>
             <p className="text-lg mb-6 max-w-2xl mx-auto">
               Every project is unique. Let's discuss your specific requirements and 
-              create a tailored solution taht fits your needs and budget.
+              create a tailored solution that fits your needs and budget.
             </p>
             <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap cursor-pointer">Send me a Message</button>
           </div>

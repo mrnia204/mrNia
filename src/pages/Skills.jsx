@@ -225,8 +225,8 @@ const Skills = () => {
           <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white text-center">
             <h3 className="text-2xl font-bold mb-4">Always Learning</h3>
             <p className="text-lg mb-6 max-w-2xl mx-auto">
-              Technology evolves rapidly, and I'm committed to staying current with the 
-              latest trends and best practices in development
+              With technology evolving rapidly, and I remain dedicated to keeping up with the 
+              latest trends and best practices in web development.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <span className="bg-white/20 px-4 py-2 rounded-full text-sm">Next.js</span>

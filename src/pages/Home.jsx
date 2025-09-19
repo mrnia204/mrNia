@@ -1,4 +1,5 @@
-import BackgroundImg from '../assets/backgroundImg.jpg';
+import BackgroundImg from '../assets/wallpaper-background.png';
+import Logo from '../assets/mrnia.png'
 
 const Home = () => {
   return (
@@ -8,6 +9,9 @@ const Home = () => {
        
     >
       <div className="container mx-auto px-6 text-center text-white">
+        <div className="absolute top-6 left-6 bg-white rounded-full">
+          <img src={Logo} alt="logo" className="w-14 h-14 rounded-full border-2 border-white text-white" />
+        </div>
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">Hi, I'm <span className="text-blue-400">mrNia</span></h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">Welcome to 

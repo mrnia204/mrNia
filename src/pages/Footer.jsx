@@ -10,8 +10,8 @@ const Footer = () => {
             {/**mrNia */}
             <div className="md:col-span-2">
               <div className="mb-6">
-                <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: "Pacifico, serif"}}>mrNia</h3>
-                <p className="text-gray-400 text-lg leading-relaxed">
+                <h3 className="text-xl md:text-2xl font-bold mb-2" style={{fontFamily: "unset"}}>mrNia</h3>
+                <p className="text-gray-400 text-base md:text-lg leading-relaxed">
                   Passionate web developer, creating beautiful, functional, 
                   and user-friendly digital experiences. Let's build something amazing togeter.
                 </p>

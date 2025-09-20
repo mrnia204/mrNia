@@ -6,7 +6,7 @@ const Skills = () => {
       <div className="container mx-auto px-6">
         <div className="max-w 6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Skills & Expertise</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Skills & Expertise</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               I'm proficient in a wide range of technologies and tools that help me build exceptional web experiences.
             </p>
@@ -20,7 +20,7 @@ const Skills = () => {
                 <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mr-4">
                   <i className="ri-palette-line text-white text-xl"></i>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">Frontend Development</h3>
+                <h3 className="text-lg md:text-xl font-bold text-gray-900">Frontend Development</h3>
               </div>
 
               <div className="space-y-4">
@@ -88,7 +88,7 @@ const Skills = () => {
                 <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mr-4">
                   <i className="ri-server-line text-white text-xl"></i>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">Backend Development</h3>
+                <h3 className="text-lg md:text-xl font-bold text-gray-900">Backend Development</h3>
               </div>
 
               <div className="space-y-4">
@@ -155,7 +155,7 @@ const Skills = () => {
                 <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mr-4">
                   <i className="ri-tools-line text-white text-xl"></i>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">Tools & Technologies</h3>
+                <h3 className="text-lg md:text-xl font-bold text-gray-900">Tools & Technologies</h3>
               </div>
 
               <div className="space-y-4">
@@ -204,7 +204,7 @@ const Skills = () => {
                 <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mr-4">
                   <i className="ri-smartphone-fill text-white text-xl"></i>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">Mobile Application</h3>
+                <h3 className="text-lg md:text-xl font-bold text-gray-900">Mobile Application</h3>
               </div>
 
               <div className="space-y-4">
@@ -223,9 +223,9 @@ const Skills = () => {
 
           {/**alwasy learning */}
           <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white text-center">
-            <h3 className="text-2xl font-bold mb-4">Always Learning</h3>
-            <p className="text-lg mb-6 max-w-2xl mx-auto">
-              With technology evolving rapidly, and I remain dedicated to keeping up with the 
+            <h3 className="text-xl md:text-2xl font-bold mb-4">Always Learning</h3>
+            <p className="text-base md:text-lg mb-6 max-w-2xl mx-auto">
+              With technology evolving rapidly, I remain dedicated to keeping up with the 
               latest trends and best practices in web development.
             </p>
             <div className="flex flex-wrap justify-center gap-4">

@@ -5,9 +5,9 @@ const Services = () => {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Services I Offer</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <div className="text-center mb-16 px-4">
+            <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">Services I Offer</h2>
+            <p className="md:text-xl text-gray-600 max-w-3xl mx-auto">
               As a freelance web developer, I provide comprensive solutions to help bring your digital ideas to life.
             </p>
           </div>
@@ -19,7 +19,7 @@ const Services = () => {
               <div className="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center mb-6">
                 <i className="ri-computer-line text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Web Development</h3>
+              <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">Web Development</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Custom websites and web applications built with modern technologies like React, Next.js, and TypeScript.
               </p>
@@ -39,7 +39,7 @@ const Services = () => {
               <div className="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center mb-6">
                 <i className="ri-computer-line text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Mobile-First Design</h3>
+              <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">Mobile-First Design</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Mobile-optimised websites that provides excellent user experience across all devices and screen sizes
               </p>
@@ -59,7 +59,7 @@ const Services = () => {
               <div className="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center mb-6">
                 <i className="ri-computer-line text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Backend Development</h3>
+              <h3 className="text-lg md:text-xl  font-bold text-gray-900 mb-4">Backend Development</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Robust backend solutions with APIs, databases, and server-side logic to power your applications.
               </p>

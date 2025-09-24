@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Logo from './assets/mrnia.png';
+import HomePage from "./pages/HomePage";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import { Outlet } from "react-router-dom";
 
-import Home from './pages/Home';
-import About from './pages/About';
-import Skills from './pages/Skills';
-import Services from './pages/Services';
-import Contact from './pages/Contact';
-import Footer from './pages/Footer';
+
 
 
 
@@ -33,12 +32,12 @@ function App() {
   }
   return (
     <div className="min-h-screen bg-white">
-      <Home />
-      <About />
-      <Skills />
-      <Services />
-      <Contact />
+      <Header />
+      <main>
+        <HomePage />
+      </main>
       <Footer />
+      
     </div>
   );
 }

@@ -106,10 +106,10 @@ const Footer = () => {
           </div>
 
           {/**bottom line */}
-          <div className="border-t border-gray-800 pt-8">
+          <div className="border-t border-gray-800 pt-1">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-gray-400 text-center md:text-left">
-                <p>@2025 mrNia. All rights reserved.</p>
+                <p>@{new Date().getFullYear()} mrNia. All rights reserved.</p>
               </div>
               <div className="flex flex-wrap items-center gap-6 text-sm text-gray-400">
                 <a href="#" className="hover:text-white transition-colors cursor-pointer">Privacy Policy</a>

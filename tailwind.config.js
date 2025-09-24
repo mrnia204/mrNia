@@ -1,7 +1,5 @@
-import { defineConfig } from 'vite';
-
 /** @type {import('tailwindcss').Config} */
-export default defineConfig({
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}", // make sure this matches where your components are
@@ -17,9 +15,9 @@ export default defineConfig({
         },
       },
       animation: {
-        colorCycle: 'colorCycle 6s ease-in-out infinite',
+        'color-cycle': 'colorCycle 4s ease-out infinite',
       },
     },
   },
   plugins: [],
-})
+}

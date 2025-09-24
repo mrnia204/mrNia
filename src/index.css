@@ -10,3 +10,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@keyframes colorCycle {
+  0%, 100% { color: #ea580c; }
+  25% { color: #16a34a; }
+  50% { color: #2563eb; }
+  75% { color: #9333ea; }
+}

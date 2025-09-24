@@ -3,7 +3,7 @@ import Dummuy_person from '../assets/mrnia-profile.png';
 
 const About = () => {
   return(
-    <section className="py-20 bg-gray-50 leading-relaxed">
+    <section id="about" className="py-20 bg-gray-50 leading-relaxed">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">

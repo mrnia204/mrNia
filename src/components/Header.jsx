@@ -22,7 +22,10 @@ const Header = () => {
           </nav>
 
           {/**desktop button */}
-          <div className="hidden md:flex">
+          <div className="hidden md:flex p-4">
+            <button type='button' className='font-medium rounded-full transition-colors duration-200 cursor-pointer whitespace-nowrap flex items-center justify-centerpx-3 md:px-6 my-1 md:py-3 text-base'>
+              <a href="https://wa.me/+67574844904"><i className="ri-whatsapp-line text-4xl text-green-700 animate"></i></a>
+            </button>
             <button type='button' className='font-medium rounded-lg transition-colors duration-200 cursor-pointer whitespace-nowrap flex items-center justify-center bg-blue-400 hover:bg-blue-500 active:bg-blue-500 text-white px-3 md:px-6 my-1 md:py-3 text-base'>
               <a href="#contact">Contact Me</a>
             </button>
@@ -42,35 +45,44 @@ const Header = () => {
 
       {/**mobile drop down menu */}
       {openMenu && (
-        <div className="md:hidden px-4 py-3 space-y-2 flex flex-col bg-gradient-to-tr from-purple-400 to-gray-200">
+        <div className="md:hidden text-3xl px-4 py-3 space-y-2 flex flex-col bg-gray-50">
           <a 
             href="#about" 
-            className="blog text-gray-900 hover:text-blue-600 active:text-blue-600"
+            className="blog text-gray-900 hover:text-blue-600 active:text-blue-600 border-b border-gray-200 mt-4"
             onClick={() =>  setOpenMenu(false)}
           >
-            About Me
+            About
           </a>
           <a 
             href="#skills" 
-            className="blog text-gray-900 hover:text-blue-600 active:text-blue-600"
+            className="blog text-gray-900 hover:text-blue-600 active:text-blue-600 border-b border-gray-200 mt-4"
             onClick={() =>  setOpenMenu(false)}
           >
-            View My SKills
+            SKills
           </a>
           <a 
             href="#services" 
-            className="blog text-gray-900 hover:text-blue-600 active:text-blue-600"
+            className="blog text-gray-900 hover:text-blue-600 active:text-blue-600 border-b border-gray-200 mt-4"
             onClick={() =>  setOpenMenu(false)}
           >
-            Services I provide
+            Services
           </a>
           <a 
             href="#contact" 
-            className="blog text-gray-900 hover:text-blue-600 active:text-blue-600"
+            className="blog text-gray-900 hover:text-blue-600 active:text-blue-600 border-b border-gray-200 mt-4"
             onClick={() =>  setOpenMenu(false)}
           >
-            Contact Me Today
+            Contact Me
           </a>
+          <button className='rounded-full bg-green-600 mt-12 p-4' >
+            <a 
+              href="https://wa.me/+67574844904" 
+              className="blog text-gray-900 hover:text-blue-600 active:text-blue-600"
+              onClick={() =>  setOpenMenu(false)}
+            >
+            WhatsApp NOW!
+            </a>
+          </button>
         </div>
       )}
     </header>

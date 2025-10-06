@@ -46,6 +46,25 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
+
+            <div className="bg-blue-50 rounded-lg mt-16 p-6">
+              <h3 className="text-lg font-semibold text-blue-900 mb-5">Quick Contact</h3>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <button className="bg-blue-600 text-white hover:bg-blue-800 font-semibold rounded-full transition-all duration-300 cursor-pointer whitespace-nowrap px-4 py-2 md:px-8 md:py-4 text-lg w-full sm:w-auto animate-pulse">
+                  <a href="https://wa.me/+67574844904">
+                    <i className="ri-whatsapp-line pr-1 text-green-400 text-2xl"></i>
+                    WhatsApp
+                  </a>
+                </button>
+                <button className="text-blue-600 border border-blue-600 hover:bg-blue-100 font-semibold rounded-full transition-all duration-300 cursor-pointer whitespace-nowrap px-4 py-2 md:px-8 md:py-4 text-lg w-full sm:w-auto">
+                  <a href="mailto:nia.chrix@gmail.com">
+                    <i className='ri-mail-star-line pr-1 text-blue-500 text-2xl'></i>
+                    Email
+                  </a>
+                </button>
+              </div>
+            </div>
+
             </div>
            
             <ContactForm />

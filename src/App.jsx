@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Logo from './assets/mrnia.png';
-import HomePage from "./pages/HomePage";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Footer from "./components/feature/Footer";
+import Header from "./components/feature/Header";
 import { Outlet } from "react-router-dom";
-
-
-
-
 
 
 function App() {

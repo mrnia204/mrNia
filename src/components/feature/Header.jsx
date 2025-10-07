@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {X, Menu} from 'lucide-react';
 
-import Logo from '../assets/mrnia.png';
+import Logo from "../../assets/mrnia.png";
 
 const Header = () => {
   const[openMenu, setOpenMenu]=useState(false);

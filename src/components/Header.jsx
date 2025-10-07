@@ -77,7 +77,7 @@ const Header = () => {
           <button className='rounded-full bg-green-600 mt-12 p-4' >
             <a 
               href="https://wa.me/+67574844904" 
-              target="_blank" ref="noopener noreferrer"
+              target="_blank" rel="noopener noreferrer"
               className="blog text-gray-900 hover:text-blue-600 active:text-blue-600"
               onClick={() =>  setOpenMenu(false)}
             >
